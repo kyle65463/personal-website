@@ -1,9 +1,10 @@
 import React from "react";
 import "./Project.css";
-import jpmemIcon from "./imgs/jpmem-icon.png";
-import playStoreIcon from "./imgs/playstore.png";
-import appStoreIcon from "./imgs/appstore.png";
-import websiteIcon from "./imgs/website.png";
+import jpmemIcon from "./img/jpmem-icon.png";
+import playStoreIcon from "./img/playstore.png";
+import appStoreIcon from "./img/appstore.png";
+import websiteIcon from "./img/website.png";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function Projects() {
     return (
@@ -20,42 +21,42 @@ function Projects() {
                             />
 
                             <div className="store-list">
-                                <img
-                                    src={appStoreIcon}
-                                    alt="app icon"
-                                    className="store"
-                                />
-                                <img
-                                    src={playStoreIcon}
-                                    alt="app icon"
-                                    className="store"
-                                />
+                                <a href="https://apps.apple.com/app/背日文神器-完美結合字典與單字卡/id1550577799">
+                                    <img
+                                        src={appStoreIcon}
+                                        alt="app icon"
+                                        className="store"
+                                    />
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.kyle65463.japanese_memorizer">
+                                    <img
+                                        src={playStoreIcon}
+                                        alt="app icon"
+                                        className="store"
+                                    />
+                                </a>
                             </div>
                         </div>
                         <div className="project-description">
                             <h2 className="title no-top-margin">
-                                背日文神器 - 完美結合字典與單字卡
+                                Japanese Memorizer
                             </h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
+                                "Japanese Memorizer" is an application that
+                                combines a dictionary and flashcards. When
+                                looking up a word, you can create a custom
+                                flashcard according to your preferences. It can
+                                not only display the kana and kanjis separately
+                                but also mark the accent of the word, which is a
+                                critical part when memorizing Japanese words.
+                                Moreover, after creating some flashcards, you
+                                can take various types of quizzes to help you
+                                remember words firmly!
                             </p>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
-                            </p>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
+                                With the simple interface and various functions,
+                                this app is definitely the best Japanese
+                                vocabulary app you have ever used!
                             </p>
                         </div>
                     </div>
@@ -69,25 +70,17 @@ function Projects() {
                                 My Personal Website
                             </h2>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
+                                My personal website, literally, the one you are
+                                reading right now.
                             </p>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
-                            </p>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Aut aliquid, perferendis harum
-                                aspernatur beatae fuga maiores sed suscipit
-                                molestias odit illo provident. Aliquam corrupti
-                                reprehenderit repellat vero ab pariatur aperiam?
+                                It's my first try building a website with
+                                javascript and react.js, using github page to
+                                host it. The website only contains a few logics,
+                                so the main challenge is to style it and host
+                                properly. Since I didn't use any CSS framework,
+                                all styling stuff are coded in CSS stylesheet
+                                directly by myself.
                             </p>
                         </div>
                         <div className="img-list">
@@ -96,6 +89,11 @@ function Projects() {
                                 alt="app icon"
                                 className="project-img"
                             />
+                            <div className="store-list">
+                                <a href="https://github.com/kyle65463/personal-website">
+                                    <GitHubIcon />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

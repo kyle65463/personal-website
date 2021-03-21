@@ -13,20 +13,28 @@ function About() {
                     <h2 className="about-name">朱瑞斌 (Kyle)</h2>
                     <div className="about-info">
                         <MailIcon className="about-icon" />
-                        <GitHubIcon />
+                        <a href="https://github.com/kyle65463">
+                            <GitHubIcon />
+                        </a>
                     </div>
                 </div>
                 <div className="about-content-mid-padding"></div>
                 <div className="about-content-right">
-                    <h2 className="title">Hi, welcome to my personal website!</h2>
+                    <h2 className="title">
+                        Hi, welcome to my personal website!
+                    </h2>
                     <p>
-                    My name is Kyle. I am a sophomore studying computer science at National Taiwan University (NTU) currently.
+                        My name is Kyle. I am a sophomore studying computer
+                        science at National Taiwan University (NTU) currently.
                     </p>
                     <p>
-                    I have a great passion for software-related techniques, including many different fields, 
-                    such as machine learning, system programming, network management, web development, app development, and so on, 
-                    most of them are learned by myself. 
-                    I like to explore and pick up new skills in my free time, trying and facing various challenges.
+                        I have a great passion for software-related techniques,
+                        including many different fields, such as machine
+                        learning, system programming, network management, web
+                        development, app development, and so on, most of them
+                        are learned by myself. I like to explore and pick up new
+                        skills in my free time, trying and facing various
+                        challenges.
                     </p>
                 </div>
             </div>
