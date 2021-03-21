@@ -27,10 +27,10 @@ const skillEntries = [
 
 function Skills() {
     return (
-        <section className="skills">
-            <div className="skills-content-out">
-                <h2 className="skills-title">Skills</h2>
-                <div className="skills-content-in">
+        <section className="skills section">
+            <div className="container-out">
+                <h2 className="title">Skills</h2>
+                <div className="container-in skills-content-in">
                     {skillEntries.map((e) => (
                         <SkillEntry title={e.title} content={e.content} />
                     ))}

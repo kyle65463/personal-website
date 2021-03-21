@@ -1,0 +1,17 @@
+.title {
+    font-size: 2rem;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-out {
+    width: 75%;
+    padding: 30px 0;
+}
+
+.container-in {
+    width: 100%;
+}

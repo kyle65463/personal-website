@@ -18,7 +18,7 @@ function About() {
                 </div>
                 <div className="about-content-mid-padding"></div>
                 <div className="about-content-right">
-                    <h2>HI, welcome to my website!</h2>
+                    <h2 className="title">HI, welcome to my website!</h2>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Aut aliquid, perferendis harum aspernatur beatae

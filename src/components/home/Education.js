@@ -27,11 +27,11 @@ const expEntries = [
 
 function Education() {
     return (
-        <section className="edu-exp">
-            <div className="education-content-out">
+        <section className="edu-exp section">
+            <div className="container-out">
                 <div className="education-content-in">
                     <section className="education">
-                        <h2> Education</h2>
+                        <h2 className="title"> Education</h2>
                         <ul>
                             {eduEntries.map((e) => (
                                 <EducationEntry
@@ -43,7 +43,7 @@ function Education() {
                         </ul>
                     </section>
                     <section className="experience">
-                        <h2>Experience</h2>
+                        <h2 className="title">Experience</h2>
                         <ul>
                             {expEntries.map((e) => (
                                 <EducationEntry
