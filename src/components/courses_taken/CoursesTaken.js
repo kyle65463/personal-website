@@ -33,6 +33,7 @@ const otherEntries = [
 function CoursesTaken() {
     return (
         <div className="page">
+            <h2 className="title courses-taken-title"> Courses Taken</h2>
             <section className="section">
                 <div className="container-out">
                     <h2 className="title"> CS related</h2>

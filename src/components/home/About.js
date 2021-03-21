@@ -18,34 +18,15 @@ function About() {
                 </div>
                 <div className="about-content-mid-padding"></div>
                 <div className="about-content-right">
-                    <h2 className="title">HI, welcome to my website!</h2>
+                    <h2 className="title">Hi, welcome to my personal website!</h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aut aliquid, perferendis harum aspernatur beatae
-                        fuga maiores sed suscipit molestias odit illo provident.
-                        Aliquam corrupti reprehenderit repellat vero ab pariatur
-                        aperiam?
+                    My name is Kyle. I am a sophomore studying computer science at National Taiwan University (NTU) currently.
                     </p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aut aliquid, perferendis harum aspernatur beatae
-                        fuga maiores sed suscipit molestias odit illo provident.
-                        Aliquam corrupti reprehenderit repellat vero ab pariatur
-                        aperiam?
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aut aliquid, perferendis harum aspernatur beatae
-                        fuga maiores sed suscipit molestias odit illo provident.
-                        Aliquam corrupti reprehenderit repellat vero ab pariatur
-                        aperiam?
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aut aliquid, perferendis harum aspernatur beatae
-                        fuga maiores sed suscipit molestias odit illo provident.
-                        Aliquam corrupti reprehenderit repellat vero ab pariatur
-                        aperiam?
+                    I have a great passion for software-related techniques, including many different fields, 
+                    such as machine learning, system programming, network management, web development, app development, and so on, 
+                    most of them are learned by myself. 
+                    I like to explore and pick up new skills in my free time, facing different challenges.
                     </p>
                 </div>
             </div>

@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-content">
                 <div className="navbar-content-left">
-                    <div className="navbar-logo"> Kyle</div>
+                    <div className="navbar-logo"> KYLE</div>
                 </div>
                 <div className="navbar-content-right">
                     <Link to="/" className="navbar-item">

@@ -7,6 +7,12 @@
     margin-bottom: 30px;
 }
 
+.courses-taken-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
 table td {
     border-bottom: 1px solid #ccc;
     text-align: left;
