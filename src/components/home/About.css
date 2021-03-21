@@ -1,0 +1,57 @@
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    width: 75%;
+    padding: 70px 0;
+    align-items: center;
+    display: flex;
+}
+
+.about-content-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content-mid-padding {
+    flex: 1;
+}
+
+.about-content-right {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content-right > p {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.about-content-right > h2 {
+    font-size: 2rem;
+}
+
+.about-name {
+    font-size: 2rem;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-icon {
+    margin-right: 20px;
+}
+
+.about-avatar {
+    height: 300px !important;
+    width: 300px !important;
+}

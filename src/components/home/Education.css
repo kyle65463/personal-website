@@ -1,0 +1,51 @@
+.edu-exp {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.education-content-out {
+    width: 75%;
+    padding: 30px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.education-content-in {
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    display: flex;
+}
+
+.education,
+.experience {
+    flex: 0.45;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education > h2,
+.experience > h2 {
+    font-size: 2rem;
+}
+
+.edu-entry-title {
+    font-size: 1.3rem;
+}
+
+.edu-entry {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+}
+
+.edu-entry-time {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.edu-entry-subtitle {
+    color: rgba(0, 0, 0, 0.8);
+}
