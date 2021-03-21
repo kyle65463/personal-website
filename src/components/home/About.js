@@ -26,7 +26,7 @@ function About() {
                     I have a great passion for software-related techniques, including many different fields, 
                     such as machine learning, system programming, network management, web development, app development, and so on, 
                     most of them are learned by myself. 
-                    I like to explore and pick up new skills in my free time, facing different challenges.
+                    I like to explore and pick up new skills in my free time, trying and facing various challenges.
                     </p>
                 </div>
             </div>

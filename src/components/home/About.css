@@ -27,12 +27,6 @@
     flex-direction: column;
 }
 
-.about-content-right > p {
-    margin: 0;
-    font-size: 1.3rem;
-    line-height: 2rem;
-}
-
 .about-name {
     font-size: 2rem;
 }
