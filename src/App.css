@@ -2,6 +2,14 @@
     font-size: 2rem;
 }
 
+.page {
+    padding-bottom: 50px;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+}
+
 .section {
     display: flex;
     justify-content: center;

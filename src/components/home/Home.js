@@ -5,7 +5,7 @@ import Skills from "./Skills";
 
 function Home() {
     return (
-        <div className="home">
+        <div className="page">
             <About />
             <Education />
             <Skills />
